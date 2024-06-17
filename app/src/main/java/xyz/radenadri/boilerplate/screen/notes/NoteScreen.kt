@@ -65,13 +65,12 @@ fun NoteScreen() {
         content = { innerPadding ->
             when (val currentState = uiState.value) {
                 is UiState.Loading -> {
-                    // fill the screen with loader
                     Box(
                         modifier = Modifier.fillMaxSize(),
                         contentAlignment = Alignment.Center
                     ) {
                         CircularProgressIndicator(
-                            modifier = Modifier.size(80.dp, 80.dp)
+                            modifier = Modifier.size(40.dp, 40.dp)
                         )
                     }
                 }

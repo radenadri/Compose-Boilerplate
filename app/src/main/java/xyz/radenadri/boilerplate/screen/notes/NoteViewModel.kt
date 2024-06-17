@@ -56,7 +56,7 @@ class NoteViewModel : ViewModel() {
             is NoteEvent.SaveNote -> {
 
                 if (state.value.title.isBlank()) {
-                    showSnackBar()
+                    showSnackBar(true)
                     return
                 }
 
@@ -68,7 +68,8 @@ class NoteViewModel : ViewModel() {
                     )
                     notes.add(newNote)
 
-                    dismissSnackBar()
+                    showSnackBar(false)
+
                     _state.value = state.value.copy(title = "")
                     _state.value = state.value.copy(content = "")
                 }
@@ -76,11 +77,7 @@ class NoteViewModel : ViewModel() {
         }
     }
 
-    private fun showSnackBar() {
-        isSnackBarShowing = true
-    }
-
-    fun dismissSnackBar() {
-        isSnackBarShowing = false
+    private fun showSnackBar(show: Boolean) {
+        isSnackBarShowing = show
     }
 }
