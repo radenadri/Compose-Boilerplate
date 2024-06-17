@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.ui.theme
+package xyz.radenadri.boilerplate.ui.theme
 
 import android.app.Activity
 import android.os.Build

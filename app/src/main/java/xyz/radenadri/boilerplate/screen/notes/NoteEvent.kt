@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.screen.notes
+package xyz.radenadri.boilerplate.screen.notes
 
 sealed class NoteEvent {
     data class EnteredTitle(val value: String) : NoteEvent()

@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.ui.theme
+package xyz.radenadri.boilerplate.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

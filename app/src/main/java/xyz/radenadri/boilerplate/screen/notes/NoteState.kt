@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.screen.notes
+package xyz.radenadri.boilerplate.screen.notes
 
 data class NoteState(
     val title: String = "",

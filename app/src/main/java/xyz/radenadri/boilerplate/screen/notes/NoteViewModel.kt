@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.screen.notes
+package xyz.radenadri.boilerplate.screen.notes
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
@@ -10,8 +10,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import xyz.radenadri.notemaster.data.Note
-import xyz.radenadri.notemaster.utils.UiState
+import xyz.radenadri.boilerplate.data.Note
+import xyz.radenadri.boilerplate.utils.UiState
 
 class NoteViewModel : ViewModel() {
     val notes = mutableListOf<Note>()

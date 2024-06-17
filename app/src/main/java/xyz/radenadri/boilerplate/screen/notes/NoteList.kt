@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.screen.notes
+package xyz.radenadri.boilerplate.screen.notes
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -7,7 +7,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import xyz.radenadri.notemaster.data.Note
+import xyz.radenadri.boilerplate.data.Note
 
 @Composable
 fun NoteList(notes: List<Note>?) {

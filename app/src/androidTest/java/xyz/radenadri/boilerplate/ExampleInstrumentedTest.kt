@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster
+package xyz.radenadri.boilerplate
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

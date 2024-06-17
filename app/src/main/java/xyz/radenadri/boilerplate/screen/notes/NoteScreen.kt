@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster.screen.notes
+package xyz.radenadri.boilerplate.screen.notes
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -30,7 +30,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import xyz.radenadri.notemaster.utils.UiState
+import xyz.radenadri.boilerplate.utils.UiState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

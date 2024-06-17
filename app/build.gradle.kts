@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "xyz.radenadri.notemaster"
+    namespace = "xyz.radenadri.boilerplate"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "xyz.radenadri.notemaster"
+        applicationId = "xyz.radenadri.boilerplate"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

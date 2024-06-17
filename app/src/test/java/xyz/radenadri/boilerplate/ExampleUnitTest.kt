@@ -1,4 +1,4 @@
-package xyz.radenadri.notemaster
+package xyz.radenadri.boilerplate
 
 import org.junit.Test
 

@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Note Master"
+rootProject.name = "Boilerplate"
 include(":app")
