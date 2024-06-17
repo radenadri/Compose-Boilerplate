@@ -50,12 +50,12 @@ android {
 }
 
 dependencies {
-    implementation("androidx.compose.animation:animation:1.5.3")
-    implementation("androidx.compose.foundation:foundation:1.5.3")
-    implementation("androidx.compose.material:material:1.5.3")
-    implementation("androidx.compose.material3:material3:1.1.2")
-    implementation("androidx.compose.runtime:runtime:1.5.3")
-    implementation("androidx.compose.ui:ui:1.5.3")
+    implementation("androidx.compose.animation:animation:1.6.8")
+    implementation("androidx.compose.foundation:foundation:1.6.8")
+    implementation("androidx.compose.material:material:1.6.8")
+    implementation("androidx.compose.material3:material3:1.2.1")
+    implementation("androidx.compose.runtime:runtime:1.6.8")
+    implementation("androidx.compose.ui:ui:1.6.8")
 
     // Optional - Included automatically by material, only add when you need
     // the icons but not the material library (e.g. when using Material3 or a
@@ -67,16 +67,16 @@ dependencies {
     implementation("androidx.compose.material3:material3-window-size-class")
 
     // Optional - Integration with activities
-    implementation("androidx.activity:activity-compose:1.8.0")
+    implementation("androidx.activity:activity-compose:1.9.0")
     // Optional - Integration with ViewModels
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.2")
 
     // Compose dependencies
-    implementation("androidx.navigation:navigation-compose:2.7.4")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
     // Testing
     testImplementation("junit:junit:4.13.2")
