@@ -6,11 +6,15 @@ import androidx.compose.material3.*
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewParameter
+import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import androidx.compose.ui.unit.dp
 import xyz.radenadri.boilerplate.data.Note
 
 @Composable
-fun NoteList(notes: List<Note>?) {
+@Preview
+fun NoteList(@PreviewParameter(NoteListPreviewProvider::class) notes: List<Note>?) {
     if (!notes.isNullOrEmpty()) {
         LazyColumn {
             items(notes) { note ->
@@ -28,5 +32,11 @@ fun NoteItem(note: Note) {
         modifier = Modifier.padding(8.dp),
         headlineContent = { Text(text = note.title) },
         supportingContent = { Text(text = note.content) }
+    )
+}
+
+class NoteListPreviewProvider : PreviewParameterProvider<List<Note>> {
+    override val values = sequenceOf(
+        listOf(Note(id= 1, title = "Note 1", content = "Content 1"), Note(id = 1, title = "Note 2", content = "Content 2"))
     )
 }

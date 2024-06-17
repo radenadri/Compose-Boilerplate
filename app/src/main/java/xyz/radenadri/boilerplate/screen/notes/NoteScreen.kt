@@ -29,11 +29,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import xyz.radenadri.boilerplate.utils.UiState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
+@Preview(showBackground = true, showSystemUi = true)
 fun NoteScreen() {
     val viewModel = remember { NoteViewModel() }
     val uiState = viewModel.uiState.collectAsState()
