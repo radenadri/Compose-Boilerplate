@@ -11,14 +11,14 @@ import xyz.radenadri.boilerplate.data.Note
 
 @Composable
 fun NoteList(notes: List<Note>?) {
-    if (notes != null) {
+    if (!notes.isNullOrEmpty()) {
         LazyColumn {
             items(notes) { note ->
                 NoteItem(note = note)
             }
         }
     } else {
-        Text(text = "No Notes")
+        Text(text = "No notes found")
     }
 }
 

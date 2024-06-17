@@ -42,7 +42,7 @@ fun NoteScreen() {
     
     Scaffold(
         topBar = {
-            AppBar(title = "Note Master")
+            AppBar(title = "Notes")
         },
         snackbarHost = {
             if (viewModel.isSnackBarShowing) {
