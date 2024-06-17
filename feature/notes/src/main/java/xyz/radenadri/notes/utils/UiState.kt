@@ -1,4 +1,4 @@
-package xyz.radenadri.boilerplate.utils
+package xyz.radenadri.notes.utils
 
 sealed class UiState {
     object Loading : UiState()

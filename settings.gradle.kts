@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Boilerplate"
 include(":app")
+include(":feature:notes")

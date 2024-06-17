@@ -1,4 +1,4 @@
-package xyz.radenadri.boilerplate.screen.notes
+package xyz.radenadri.notes.screen
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -10,7 +10,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import androidx.compose.ui.unit.dp
-import xyz.radenadri.boilerplate.data.Note
+import xyz.radenadri.notes.data.Note
 
 @Composable
 @Preview
